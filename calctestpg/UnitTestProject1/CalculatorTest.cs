@@ -23,6 +23,7 @@ namespace UnitTestProject1
             Assert.IsTrue(actual_result == TestData.Calculator_Add_Sum_Regular_Numbers_result);
             // 1.0
             // 0.999999999999999999999999999999
+             Assert.AreEqual(3, 4);
         }
 
         [TestMethod]
